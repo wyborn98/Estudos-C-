@@ -10,8 +10,7 @@ public:
     int idade;
 };
 
-int getIdade(Pessoa pessoas[], int tamanho, char nome[]) {      
-    
+int getIdade(Pessoa pessoas[], int tamanho, char nome[]) {    
     
     for(int i = 0; i < tamanho; i++) {
         
@@ -19,8 +18,7 @@ int getIdade(Pessoa pessoas[], int tamanho, char nome[]) {
             return pessoas[i].idade;
         }
         i++;
-    }
-    
+    }    
 
     return -1;
 }
