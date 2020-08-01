@@ -7,14 +7,13 @@ int main() {
     int *parray = array;
     int **pparray = &parray;
     int i = 0;
-
-    /*
+    
     while(i < 5) {
         cout << *parray << endl;
         parray++;
         i++;
     }
-    */
+    
 
     cout << **pparray << endl;
 
