@@ -3,7 +3,6 @@
 using namespace std;
 #define MAX 10
 
-
 class Carro {
 
 public:
@@ -42,6 +41,7 @@ int main() {
     char resp;
     
     while(true) {
+
         cout << "Digite o nome do carro: ";
         cin  >> carros[i].nome;
         cout << "Digite o preco: ";
@@ -51,8 +51,7 @@ int main() {
         if(resp != 'S' && resp != 's')
             break;
         cout << endl;
-        i++;
-        
+        i++;        
     }
 
     cout << endl;
@@ -70,7 +69,6 @@ int main() {
         cout << "Nome do carro: " << carros[j].nome << endl;
         cout << "Preco do carro: R$" << carros[j].preco << endl << endl;
     }
-
 
     return 0;
 }
