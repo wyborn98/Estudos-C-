@@ -12,8 +12,7 @@ int main() {
         cout << *parray << endl;
         parray++;
         i++;
-    }
-    
+    }    
 
     cout << **pparray << endl;
 
